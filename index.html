@@ -390,7 +390,7 @@
         <div class="row">
             <div class="col-md-6 col-md-offset-3">
                 <h3>What are you waiting for?</h3>
-                <p>We would greatly appreciate if you could RSVP before 1st of September 2023. Please RSVP once <b>per guest</b> in your party.</p>
+                <p>We would greatly appreciate if you could RSVP before 1st of September 2023. 
                 <form id="rsvp-form" class="rsvp-form"
                       action="https://script.google.com/macros/s/AKfycbwwnhwwQoHTaY7XYlvSIyliS12Xm6_zAhhkJVDkeMPSMDRJ73UYwxw01hiYEQDJwZQA/exec"
                       method="POST">
@@ -431,7 +431,7 @@
                         <div class="col-md-6 col-sm-6">
                             <div class="form-input-group">
                                 <i class="fa fa-envelope"></i><select class="custom-select" name="rsvp_status">
-                                    <option selected>Attending...</option>
+                                    <option selected>Attending?...</option>
                                     <option value="Both Ceremony and Reception">Both Ceremony and Reception</option>
                                     <option value="Ceremony Only">Ceremony Only</option>
                                     <option value="Reception Only">Reception Only</option>
@@ -449,6 +449,24 @@
                             </div>
                         </div>
                     </div>
+                    <div class="row">
+                        <div class="col-md-6 col-sm-6">
+                            <div class="form-input-group">
+                                <i class="fa fa-user"></i><input name="name2" class=""
+                                                                 placeholder="+1 Name"
+                                                                 required>
+                            </div>
+                        </div>
+                        <div class="col-md-6 col-sm-6">
+                            <div class="form-input-group">
+                                <i class="fa fa-spoon"></i><select class="custom-select" name="dinner2">
+                                    <option selected>+1 Meal...</option>
+                                    <option value="Chicken">Chicken</option>
+                                    <option value="Salmon">Salmon</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
                     </div>
                     <div class="row">
                         <div class="col-md-12" id="alert-wrapper"></div>
@@ -458,6 +476,7 @@
                         that's me!
                     </button>
                 </form>
+            <p>Your invitation is printed on plantable paper. Please do not recycle or throw it away. You can plant it or discard it into a green space to decompose.</p>
             </div>
         </div>
     </div>
